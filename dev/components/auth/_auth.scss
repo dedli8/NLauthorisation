@@ -1,51 +1,51 @@
-.nl-auth{
+.nl-auth {
   margin: 0 auto;
   background: url("img/authbg.png") no-repeat;
-  max-width: 1200px;
+  width: 1200px;
   padding: 118px 190px 20px 190px;
   border-bottom: 20px solid #019244;
   text-align: center;
   box-sizing: border-box;
-  .nl-auth-box{
+  .nl-auth-box {
     padding: 50px 20px 85px 20px;
     background-color: rgba(255, 255, 255, 0.87);
     max-width: 1000px;
     margin: 0 auto 43px auto;
     text-align: center;
-    .choose-auth-title{
+    .choose-auth-title {
       font-weight: 700;
       font-size: 48px;
       color: #333232;
       margin-top: 35px;
       margin-bottom: 28px;
     }
-    .mob-attachments-title{
+    .mob-attachments-title {
       font-size: 38px;
       color: #afafaf;
       margin-bottom: 35px;
     }
-    .auth-method{
+    .auth-method {
       display: inline-block;
     }
-    .app-store, .google-play, .fb-auth, .googleplus-auth{
+    .app-store, .google-play, .fb-auth, .googleplus-auth {
       background: no-repeat center;
       background-size: cover;
     }
-    .app-store{
+    .app-store {
       display: block;
       margin: 0 auto 32px auto;
       width: 314px;
       height: 104px;
       background-image: url("img/appstoreauthicon.png");
     }
-    .google-play{
+    .google-play {
       display: block;
       width: 314px;
       height: 104px;
       margin: 0 auto 32px auto;
       background-image: url("img/googleplayauthicon.png");
     }
-    .fb-auth{
+    .fb-auth {
       width: 129px;
       height: 129px;
       background-image: url("img/fbauthicon.png");
@@ -54,26 +54,26 @@
       margin-right: 50px;
       margin-bottom: 28px;
     }
-    .googleplus-auth{
+    .googleplus-auth {
       display: inline-block;
       vertical-align: top;
       background-image: url("img/googleplusauthicon.png");
       width: 129px;
       height: 129px;
     }
-    .card-auth-title{
+    .card-auth-title {
       font-weight: 700;
       font-size: 40px;
       color: #333232;
       margin-bottom: 48px;
     }
-    .card-auth-box{
+    .card-auth-box {
       border: 1px solid #333232;
       font-size: 0;
       height: 152px;
       text-align: left;
       margin-bottom: 88px;
-      input{
+      input {
         height: 100%;
         width: 68%;
         font-size: 38px;
@@ -84,26 +84,26 @@
         box-sizing: border-box;
       }
       input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-       font-size: 38px;
+        font-size: 38px;
         font-weight: 400;
         font-family: $ubuntu, sans-serif;
       }
       input::-moz-placeholder { /* Firefox 19+ */
-       font-size: 38px;
+        font-size: 38px;
         font-weight: 400;
         font-family: $ubuntu, sans-serif;
       }
       input:-ms-input-placeholder { /* IE 10+ */
-       font-size: 38px;
+        font-size: 38px;
         font-weight: 400;
         font-family: $ubuntu, sans-serif;
       }
       input:-moz-placeholder { /* Firefox 18- */
-       font-size: 38px;
+        font-size: 38px;
         font-weight: 400;
         font-family: $ubuntu, sans-serif;
       }
-      .card-auth-enter{
+      .card-auth-enter {
         color: white;
         font-size: 47px;
         text-align: center;
@@ -117,22 +117,22 @@
         line-height: 146px;
       }
     }
-    .no-auth{
+    .no-auth {
       font-weight: 400;
       font-size: 37px;
       color: #a8a8a8;
       border-bottom: 3px solid #a8a8a8;
     }
   }
-.auth-conditions, .auth-copy{
-  color: white;
-  font-weight: 400;
-  font-size: 25px;
-  display: inline-block;
-  vertical-align: center;
-}
-.auth-conditions{
-  border-bottom: 1px solid white;
-  margin-right: 30px;
-}
+  .auth-conditions, .auth-copy {
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    display: inline-block;
+    vertical-align: center;
+  }
+  .auth-conditions {
+    border-bottom: 1px solid white;
+    margin-right: 30px;
+  }
 }

@@ -11,15 +11,15 @@
 </head>
 <body>
 <div class="nl-authorisation">
-        <!--#middle-->
+    <!--#middle-->
 </div>
 <script src="js/main.js"></script>
 <script>
-    // $(function () {
-    //     var siteWidth = 500;
-    //     var scale = screen.width /siteWidth;
-    //     document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
-    // })
-   </script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+        const siteWidth = 1200;
+        const scale = screen.width / siteWidth;
+        document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=' + siteWidth + ', initial-scale=' + scale + '');
+    });
+</script>
 </body>
 </html>
