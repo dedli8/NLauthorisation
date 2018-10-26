@@ -1,0 +1,12 @@
+@import 'settings';
+@import 'mixins';
+.nl-authorisation{
+  @import 'reset';
+  font-family: $ubuntu;
+  font-weight: 300;
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  @import "../../components/auth/_auth.scss";
+}
